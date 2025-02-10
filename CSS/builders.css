@@ -1,0 +1,117 @@
+* {
+    text-align: center;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+img {
+    width: 35rem;
+    height: 35rem;
+}
+.logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.header a{
+    display: flex;
+    color: green;
+    text-decoration: none;
+    text-indent: 1rem;
+}
+.title {
+    display: flex;
+    padding-left: 7rem;
+}
+.links {
+    padding-left: 70rem;
+    display: flex;
+    margin-top: -3rem;
+}
+.links a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.f3 {
+    display: flex;
+    padding-left: 3rem;
+}
+.f3 button {
+    border-width: 1rem;
+}
+.f3 button:hover {
+    border-width: 1rem;
+    border-color: red;
+}
+.s3 {
+    display: flex;
+    padding-left: 3rem;
+}
+.s3 button{
+    border-width: 1rem;
+}
+.s3 button:hover {
+    border-width: 1rem;
+    border-color: red;
+}
+.t3 {
+    display: flex;
+    padding-left: 3rem;
+}
+.t3 button{
+    border-width: 1rem;
+}
+.t3 button:hover {
+    border-width: 1rem;
+    border-color: red;
+}
+.skip {
+    padding: 1rem;
+    background-color: #ffb500;
+    border-radius: 1rem;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.skip a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.skip {
+    cursor:pointer;
+}
+.footer {
+    background-color: #104b70;
+    display: flex;
+    color: white;
+}
+.footer-logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.footer a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.footer-title {
+    display: flex;
+    padding-left: 7rem;
+    margin-top: 1rem;
+}
+.footer h1 {
+    height: 5rem;
+    margin-bottom: 0rem;
+}
+.footer-links {
+    padding-left: 70rem;
+}
+.footer-links a:hover {
+    color: red;
+    text-decoration: underline;
+}

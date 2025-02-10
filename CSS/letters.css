@@ -1,0 +1,151 @@
+
+* {
+    text-align: center;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.header a{
+    display: flex;
+    color: green;
+    text-decoration: none;
+    text-indent: 1rem;
+}
+.title {
+    display: flex;
+    padding-left: 7rem;
+}
+.links {
+    padding-left: 70rem;
+    display: flex;
+    margin-top: -3rem;
+}
+.links a:hover {
+    color: red;
+    text-decoration: underline;
+}
+        .resume{
+            color:rgb(7, 7, 167);
+            font-size:20px;
+            font-family: arial;
+            cursor:pointer;
+        }
+        .paragraph-text{
+            background-color:rgb(7, 7, 141);
+            color:white;
+            font-size:30px;
+            font-family:arial;
+        }
+        .paragraph{
+            font-size:20px;
+            background-color:rgb(7, 7, 141);
+            color:white;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 70px;
+        }
+        .letter{
+            border-radius:25px;
+            border-color:black;
+            background-color:red;
+            color:white;
+            height:50px;
+            width:280px;
+            border-style:solid;
+            cursor:pointer;
+        }
+        .letter:hover{
+            background-color:orange;
+        }
+        .my{
+            border-radius:25px;
+            border-color:black;
+            background-color:red;
+            color:white;
+            height:50px;
+            width:280px;
+            border-style:solid;
+            cursor:pointer;
+        }
+        .my:hover{
+            background-color:orange;
+        }
+        .cover{
+            color:rgb(0, 217, 255);
+            cursor:pointer;
+        }
+        .cover:hover{
+            color:orange;
+        }
+        .business{
+            color:rgb(0, 217, 255);
+            cursor:pointer;
+        }
+        .business:hover{
+            color:orange;
+        }
+        .samples{
+            font-size:20px;
+                }
+                .hr-long-green{
+                    color:greenyellow;
+                }
+                .G{
+                    color:aqua;
+                    font-size: 20px;
+                    cursor:pointer;
+                }
+                .G:hover{
+                    color:orange;
+                }
+                .create{
+                    background-color: red;
+                    cursor:pointer;
+                    border-radius:25px;
+                    border-color:black;
+                    color:white;
+                    height:50px;
+                    width:280px;
+                    border-style:solid;
+                }
+                .create:hover{
+                    background-color:orange;
+                }
+.footer {
+    background-color: #104b70;
+    display: flex;
+    color: white;
+}
+.footer-logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.footer a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.footer-title {
+    display: flex;
+    padding-left: 7rem;
+    margin-top: 1rem;
+}
+.footer h1 {
+    height: 5rem;
+    margin-bottom: 0rem;
+}
+.footer-links {
+    padding-left: 70rem;
+}
+.footer-links a:hover {
+    color: red;
+    text-decoration: underline;
+}

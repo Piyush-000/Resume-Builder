@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="../CSS/personal-info.css">
+        <link rel="icon" href="../IMG/Logo.jpeg" sizes="16x16" type="image/png">
+        <title>
+            Resume Builder | Feedback
+        </title>
+    </head>
+    <body>
+        <div class="header"><b>
+            <a class="title" href="index.html">
+                <img class="logo" src="../IMG/Logo.jpeg">
+                <h1>Resume Builder</h1>
+            </a>
+            <ol class="links" type="none">
+                <li><a href="builders.html">Builders</a></li>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="cover.html">Cover Letter</a></li>
+                <li><a href="personal-info.html">Job Description</a></li>
+                <li><a href="Letters.html">Letters</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ol></b>
+        </div>
+        <script type="text/javascript">var submitted=false;</script>
+        <hr width=1300rem color="blue"><br><br>
+        <p class="head"> <strong>Feedback</strong></p>
+        <p class="info">Employers will use this information to contact you.</p>
+        <br><br>
+        <form class="form" method="POST" autocomplete="on" name="google-sheet" id="form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfuQfIF5YSVmCvU1QW5__EHmycLPB73OFWLGRqhow55x-G6Nw/formResponse" onsubmit="submitted=true" target="hidden_iframe">
+            <div class="name">
+                <div class="fname">
+                    <label> First Name </label><br>
+                    <input type="text" placeholder="e.g. John" name="entry.1116023924"><br>
+                </div>
+                <div class="sname">
+                    <label> Second Name </label><br>
+                    <input type="text" placeholder="e.g. Williams" name="entry.397207597"><br>
+                </div>
+            </div>
+<!--            <div class="add">
+                <label> Address </label><br>
+                <input type="text" placeholder="e.g. 60, Collins st." name="entry.1022924360"><br>
+            </div>
+            <div class="id">
+                <div class="city">
+                    <label> City </label><br>
+                    <input type="text" placeholder="e.g. San Franciso" name="entry.1291010343"><br>
+                </div>
+                <div class="zip">
+                    <label> ZIP </label><br>
+                    <input type="text" placeholder="e.g. 60185" name="entry.1490842217"><br>
+                </div>
+                <div class="country">
+                    <label> Country </label><br>
+                    <select name="entry.528727437">
+                        <option value = "India" default > India </option>
+                        <option value = "Australia"> Australia </option>
+                        <option value = "Russia"> Russia </option>
+                    </select>
+                </div>
+            </div>-->
+            <div class="name">
+                <div class="fname">
+                    <label> Email Address </label><br>
+                    <input type="text" placeholder="e.g. john_williams@example.com" name="entry.1231801051"><br>
+                </div>
+                <div class="sname">
+                    <label> Phone </label><br>
+                    <input type="text" placeholder="e.g. 202-555-0145" name="entry.1954494331"><br>
+                </div>
+            </div>
+            <div class="id">
+                <div class="city">
+                    <label> Experience </label><br>
+                    <input type="text" placeholder="e.g. No Experience" name="entry.632428382"><br>
+                </div>
+<!--                <div class="zip">
+                    <label> Education Level </label><br>
+                    <input type="text" placeholder="e.g. Bachelors" name="entry.1433092462"><br>
+</div>-->
+                <div class="country">
+                    <label> Student </label><br>
+                    <select name="entry.462567727">
+                        <option value = "Yes" default > Yes </option>
+                        <option value = "No"> No </option>
+                    </select>
+                </div>
+            </div>
+<!--            <div class="add">
+                <label> Skills to be highlighted </label><br>
+                <input type="text" placeholder="e.g. Python, HTML, Data Evaluation, Database Management..." name="entry.2100153881"><br>
+</div>-->
+            <div class="sum">
+                <label> Feedback</label><br>
+                <textarea type="text" class="input" placeholder="Share your thoughts here..." v-model="newItem" name="entry.1196975513" rows="4" cols="83.5"></textarea><br>
+            </div>
+            <br><br>
+            <div class="button">
+                <a href="builders.html">
+                    <div class="back">
+                        <button>BACK</button>
+                    </div>
+                </a>
+                <div class="gap"></div>
+                <div class="save">
+                    <input type="submit" value="SAVE & NEXT" name="sane" class="saveb">
+                </div>
+            </div>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){
+    window.location='file:///home/coding/GitLab/Resume Builder/HTML/feedback.html';}"></iframe>
+        </form><br>
+        <div class="foot"></div>
+        <div class="footer">
+            <a class="footer-title" href="index.html">
+                <img class="footer-logo" src="../IMG/Logo.jpeg">
+                <h1>Resume Builder</h1><br>
+            </a><br>
+            <ol type="none" class="footer-links">
+                <li><a href="builders.html">Builders</a></li>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="cover.html">Cover Letter</a></li>
+                <li><a href="personal-info.html">Job Description</a></li>
+                <li><a href="Letters.html">Letters</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ol>
+        </div>
+        <script>
+        jQuery('#form').on('submit',function(e){
+            e.preventDefault();
+            jQuery.ajax({
+                url:'https://script.google.com/macros/s/AKfycbxNaORJ36ZOoUlzQ3gK20hVkLMNzvE8nnb9dcVKLTTFPPlYKhdsFtKibVEneKaQp54OIA/exec',
+                type:'post',
+                data:jQuery('#form').serialize(),
+                success:function(result){
+                    alert(result)
+                }
+            });
+        });
+
+          </script>
+    </body>
+</html>
+

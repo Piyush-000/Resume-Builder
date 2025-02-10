@@ -1,0 +1,133 @@
+* {
+    text-align: center;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.header a{
+    display: flex;
+    color: green;
+    text-decoration: none;
+    text-indent: 1rem;
+}
+.title {
+    display: flex;
+    padding-left: 7rem;
+}
+.links {
+    padding-left: 70rem;
+    display: flex;
+    margin-top: -3rem;
+}
+.links a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.sample {
+    height: 65rem;
+    background-color: #24425a;
+    color: white;
+    font-fami8611l8611y: Courier;
+}
+.sample-head {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sample-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.sample-body {
+    font-size: 1rem;
+}
+.sample ol {
+    display: flex;
+    width: 5rem;
+    text-indent: 3rem;
+    padding-left: 8rem;
+}
+
+button {
+    padding: 1rem;
+    background-color: #ffb500;
+    border-radius: 5rem;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+button:hover {
+    cursor:pointer;
+}
+.text {
+    background-color: #f2f5f7;
+}
+.text-head {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.text-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 28.5rem;
+}
+.text-body {
+    font-size: 1rem;
+    color: blue;
+    text-align: left;
+    margin-left: 28.5rem;
+}
+.download {
+    background-color: #ffffff;
+}
+.download ol {
+    display: flex;
+    margin-left: 38rem;
+    text-indent: 3rem;
+}
+.download-body {
+    font-size: 1rem;
+}
+.resource {
+    background-color: #f2f5f7;
+    font-family: "Muli",sans-serif;
+}
+.footer {
+    background-color: #104b70;
+    display: flex;
+    color: white;
+}
+.footer-logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.footer a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.footer-title {
+    display: flex;
+    padding-left: 7rem;
+    margin-top: 1rem;
+}
+.footer h1 {
+    height: 5rem;
+    margin-bottom: 0rem;
+}
+.footer-links {
+    padding-left: 70rem;
+}
+.footer-links a:hover {
+    color: red;
+    text-decoration: underline;
+}

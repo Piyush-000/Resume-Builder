@@ -1,0 +1,204 @@
+* {
+    text-align: center;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.header a{
+    display: flex;
+    color: green;
+    text-decoration: none;
+    text-indent: 1rem;
+}
+.title {
+    display: flex;
+    padding-left: 7rem;
+}
+.links {
+    padding-left: 70rem;
+    display: flex;
+    margin-top: -3rem;
+}
+.links a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.head {
+    font-size: 2rem;
+    text-align: left;
+    font-family: 'Open Sans TTF',sans-serif;
+    padding-left: 15rem;
+    margin-bottom: 0rem;
+}
+.info {
+    font-size: 1rem;
+    text-align: left;
+    font-family: 'Open Sans TTF',sans-serif;
+    padding-left: 15rem;
+    margin-top: 0rem;
+}
+.form {
+    text-align: left;
+}
+.name {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.fname {
+    width: 10rem;
+    padding-left: 15rem;
+}
+.fname label {
+    text-align: left;
+}
+.fname input {
+    width: 25rem;
+    height: 1.5rem;
+}
+.sname {
+    margin-left: 3rem;
+    width: 10rem;
+    padding-left: 15rem;
+}
+.sname label {
+    text-align: right;
+}
+.sname input {
+    width: 25rem;
+    height: 1.5rem;
+}
+.add {
+    width: 10rem;
+    padding-left: 15rem;
+    margin-bottom: 2rem;
+}
+.add label {
+    text-align: right;
+}
+.add input {
+    height: 1.5rem;
+    width: 53rem;
+}
+.sum {
+    width: 20rem;
+    padding-left: 15rem;
+    margin-bottom: 2rem;
+}
+.sum label {
+    text-align: right;
+}
+.id {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.city {
+    width: 10rem;
+    padding-left: 15rem;
+    margin-bottom: 2rem;
+}
+.city label {
+    text-align: right;
+}
+.city input {
+    height: 1.5rem;
+    width: 25rem;
+}
+.zip {
+    width: 10rem;
+    margin-left: 2rem;
+    padding-left: 15rem;
+}
+.zip label {
+    text-align: right;
+}
+.zip input {
+    height: 1.5rem;
+    width: 10rem;
+}
+.country {
+    width: 10rem;
+    margin-left: 18rem;
+}
+.country label {
+    text-align: right;
+}
+.country select {
+    height: 2rem;
+    width: 25.5rem;
+    background-color: #ffff;
+}
+.footer {
+    background-color: #104b70;
+    display: flex;
+    color: white;
+}
+.footer-logo {
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    padding-left: 4rem;
+}
+.footer a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.footer-title {
+    display: flex;
+    padding-left: 7rem;
+    margin-top: 1rem;
+}
+.footer h1 {
+    height: 5rem;
+    margin-bottom: 0rem;
+}
+.footer-links {
+    padding-left: 70rem;
+}
+.footer-links a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.button {
+    display: flex;
+    margin-left: 15rem;
+}
+.back button {
+    padding: 1rem;
+    background-color: #ffb500;
+    border-radius: 5rem;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.back button:hover {
+    cursor:pointer;
+}
+.gap {
+    width: 40rem;
+}
+.save input {
+    padding: 1rem;
+    background-color: #ffb500;
+    border-radius: 5rem;
+    border-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.save input:hover {
+    cursor:pointer;
+}
+.foot {
+    height: 3.5rem;
+}
+textarea {
+  resize: none;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+
+</head>
+<body>
+        <script type="text/javascript">var submitted=false;</script>
+<!-- partial:index.partial.html -->
+<div id="bg"></div>
+
+<form method="POST" target="hidden_iframe" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcqKBMCvfGUYpkLD5SkaFijbB7M_DB9pnPQ4xN84VVAwxZEQ/formResponse" onsubmit="submitted=true">
+  <div class="form-field">
+    <input type="email" placeholder="Email / Username" required name="entry.678490479"/>
+  </div>
+  
+  <div class="form-field">
+    <input type="password" placeholder="Password" required name="entry.147857440"/>                         </div>
+  
+  <div class="form-field">
+    <input type="submit" class="btn" type="submit" name="sane">
+  </div>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){
+    window.location='file:///home/coding/GitLab/Resume Builder/HTML/index.html';}"></iframe>
+</form>
+<!-- partial -->
+  
+        <script>
+        jQuery('#form').on('submit',function(e){
+            e.preventDefault();
+            jQuery.ajax({
+                url:'https://script.google.com/macros/s/AKfycbxNaORJ36ZOoUlzQ3gK20hVkLMNzvE8nnb9dcVKLTTFPPlYKhdsFtKibVEneKaQp54OIA/exec',
+                type:'post',
+                data:jQuery('#form').serialize(),
+                success:function(result){
+                    alert(result)
+                }
+            });
+        });
+
+          </script>
+</body>
+</html>
